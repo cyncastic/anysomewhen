@@ -15,11 +15,35 @@ h1{
 }
 
 .container{
-	width: 800px;
-	margin-top: 2em;
+	width: 30em;
+	margin-top: 1em;
 
 }
 
-#linktree{
-	
+
+#album-cover{
+	height: 20em;
+	width: 20em;
+	background-color: #111111;
+}
+
+
+#linktree a, #deadtree a{ text-decoration:none; }
+#linktree svg, #deadtree svg{ 
+		height: 3em;
+		width: 3em;
+}
+
+
+
+
+
+#deadtree{
+	margin-top: .25em;
+}
+#deadtree svg .crossed{
+	opacity: 0;
+}
+#deadtree svg:hover .crossed{
+	opacity: 100;
 }

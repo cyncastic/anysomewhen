@@ -14,7 +14,12 @@ h1{
 	color: red;
 }
 
+.container{
+	width: 800px;
+	margin-top: 2em;
+
+}
 
 #linktree{
-	width: 800px;
+	
 }
